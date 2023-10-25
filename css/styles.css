@@ -123,7 +123,7 @@ ol {
     gap: 40px;
 }
 .nav {
-    color: var(--dark-color);
+    color: var(--pressed-state-color);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5em;
