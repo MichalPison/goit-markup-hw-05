@@ -134,12 +134,6 @@ ol {
     position: relative;
 }
 
-.nav-studio {
-    color: var(--pressed-state-color);
-    position: relative;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .nav-studio::after {
     content: "";
     position: absolute;
@@ -151,11 +145,7 @@ ol {
     border-radius: 2px;
     color: var(--pressed-state-color);
 }
-.nav-portfolio {
-    color: var(--pressed-state-color);
-    position: relative;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 
 .nav-portfolio::after {
     content: "";
@@ -183,6 +173,16 @@ ol {
     letter-spacing: 0.32px;
     color: var(--dark-color);
     padding: 24px 0 24px;
+}
+.navi-links .nav-studio {
+    color: var(--pressed-state-color);
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.navi-links .nav-portfolio {
+    color: var(--pressed-state-color);
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-links .link {
     margin-right: 0;
